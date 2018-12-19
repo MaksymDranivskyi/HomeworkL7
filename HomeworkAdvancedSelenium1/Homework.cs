@@ -78,6 +78,7 @@ namespace HomeworkAdvancedSelenium1
             Assert.AreEqual("Dropped!", dropElement.Text);
             TestContext.WriteLine("Dropped!");
             driver.Quit();
+
         }
 
 
